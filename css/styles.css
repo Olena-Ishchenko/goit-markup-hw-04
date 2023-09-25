@@ -1,0 +1,192 @@
+body{font-family: Roboto,  sans-serif;
+background-color: #FFF;
+color: #434455;
+margin: 0;
+}
+a{text-decoration: none;}
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+   
+}
+h1{margin: 0;}
+h3 {color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+margin: 0;}
+ p { color: #434455;
+     font-size: 16px;
+    line-height: 1.5;
+     letter-spacing: 0.02em;
+    margin: 0;}
+h2{color:  #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+margin: 0;}
+li{margin: 0;
+padding-left: 0;}
+img{display: block;}
+.header{border-bottom: 1px solid #e7e9fc
+}
+.header-div{display: flex;
+justify-content: space-between;}
+
+.nav{display: flex;
+align-items: center;}
+.address{display: flex;}
+.nav-header{display: flex;
+gap: 40px;}
+.contact{display: flex;
+gap: 40px;
+align-items: center;}
+.container{max-width: 1158px; 
+           padding-left: 15px;
+           padding-right: 15px;
+           margin-left: auto; 
+           margin-right: auto;}
+
+.logo{color: #4D5AE5 ;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+display: block;
+margin-right: 76px;}
+.colortext{color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.link-nav{
+    color:  #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+display: block;
+padding-top: 24px;
+padding-bottom: 24px;}
+.link-nav:hover{color:  #404BBF;}
+.link-nav:focus {color: #404BBF;}
+address{font-style: normal;}
+.address a{color:  #434455;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+.mail:hover {color: #404BBF;}
+.mail:focus {color: #404BBF;}
+.section-one{background: #2E2F42;
+    padding-bottom: 188px;
+    padding-top: 188px;}   
+        
+.title{color:  #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;}
+.button{background:  #4D5AE5;
+    color:  #FFF;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+        }
+.button:hover{background:  #404BBF;}
+.button:focus {background: #404BBF; }
+.title-section{margin-bottom: 72px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.features{padding-top: 120px;
+    padding-bottom: 120px;
+}
+.features-item{width: calc((100% - 24px * 3)/4);}
+.features-list{display: flex;
+    gap: 24px;}
+.features-item-title{margin-bottom: 8px;}
+.team{background:  #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;} 
+.our-team{display: flex;
+    gap: 24px;
+    width: calc(100% - 24px * 3)/4;}
+.foto-team{background: #FFF;
+border-radius: 0px 0px 4px 4px;}
+.team-item-name{padding: 32px 0;}
+.team-item-title{text-align: center;
+margin-bottom: 8px;}
+.team-text{text-align: center;}
+
+.portfolio{padding-top: 120px;
+padding-bottom: 120px;}
+
+.products{display: flex;
+row-gap: 48px;
+column-gap: 24px;
+flex-wrap: wrap;
+width: calc(100% - 24px * 2)/3 ;}
+
+.portfolio-item-app{padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;}
+
+.portfolio-item-title{margin-bottom: 8px;}
+.footer{background:  #2E2F42;
+padding: 100px 0;}
+
+.footer-logo{display: inline-block;
+margin-bottom: 16px;}
+.colortext-footer {
+     color:  #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.text-footer{color:  #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;}
